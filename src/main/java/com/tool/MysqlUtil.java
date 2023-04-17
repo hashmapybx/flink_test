@@ -22,7 +22,7 @@ public class MysqlUtil {
     }
 
     // 第二步： 获取与oracle的连接 Connection
-    static String url = "jdbc:mysql://192.168.56.102:3306/flink_cdc?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
+    static String url = "jdbc:mysql://xxxx:3306/flink_cdc?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
     static String user = "root";
     static String password = "1qazZAQ!";
 
@@ -33,7 +33,7 @@ public class MysqlUtil {
     static String local_password = "1qazZAQ!";
 
 
-    static String qiannan_url = "jdbc:mysql://172.21.35.63:3306/zczqdb?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
+    static String qiannan_url = "jdbc:mysql://xxxx:3306/zczqdb?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
     static String qiannan_user = "qn_zczq";
     static String qiannan_password = "Qn_zczq@2022";
 
