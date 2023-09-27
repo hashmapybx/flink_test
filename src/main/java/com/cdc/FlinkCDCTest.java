@@ -63,7 +63,7 @@ public class FlinkCDCTest {
         prop.setProperty("autoReconnect", "true");
         //创建mysql bilog数据源
         MySqlSource<String> sourceFunction = MySqlSource.<String>builder().hostname("172.21.35.63")
-//                .serverTimeZone("UTC+8")//表示东八区
+//                .serverTimeZone("Asia/Shanghai")//表示东八区
                 .port(3306)
                 .username("qn_zczq")
                 .password("Qn_zczq@2022")
